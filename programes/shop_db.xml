@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <Personaldetails>
+        <Shoppingcenter>Galaxy</Shoppingcenter>
+        <Owner>Ashish Prajapati</Owner>
+        <Contact>1478523695</Contact>
+    </Personaldetails>
+    <Store>
+        <Name>Shardda Novelty</Name>
+        <Contact>1245789635</Contact>
+        <Shopno>101</Shopno>
+        <Hijabproducts>
+            <ProdName>Hijab Pins</ProdName>
+            <Price>10</Price>
+        </Hijabproducts>
+    </Store>
+    <Store>
+        <Name>Galaxy Phone</Name>
+        <Contact>1245789635</Contact>
+        <Shopno>102</Shopno>
+        <PhoneProd>
+            <ProdName>I-Phone 15 Pro Max</ProdName>
+            <Price>85,000,00</Price>
+        </PhoneProd>
+    </Store>
+    <Store>
+        <Name>Ravi Plastics</Name>
+        <Contact>1245789635</Contact>
+        <Shopno>103</Shopno>
+        <PlasticProd>
+            <ProdName>Plastic Bottel</ProdName>
+            <Price>20</Price>
+        </PlasticProd>
+    </Store>
+    <Store>
+        <Name>Raj Stationery</Name>
+        <Contact>1245789635</Contact>
+        <Shopno>104</Shopno>
+        <PlasticProd>
+            <ProdName>NoteBooks</ProdName>
+            <Price>50</Price>
+        </PlasticProd>
+    </Store>
+</root>

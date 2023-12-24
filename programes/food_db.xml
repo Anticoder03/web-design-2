@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<root>
+    <Fooddetails>
+        <pure-veg>
+            <Fried-rice>
+                <price>150</price>
+                <ingredients>rice, Onion, Curd</ingredients>
+                <qty>2</qty>
+            </Fried-rice>
+            <French-fries>
+                <price>150</price>
+                <ingredients>Potato, water, salt, etc</ingredients>
+                <qty>2</qty>
+            </French-fries>
+            <Paneer-chilly>
+                <price>300</price>
+                <ingredients> Onion, Paneer, Chily, garlic powder</ingredients>
+                <qty>2</qty>
+            </Paneer-chilly>
+        </pure-veg>
+        <pure-nonveg>
+            <Chicken-Afgani>
+                <price>150</price>
+                <ingredients>rice, Onion, Curd</ingredients>
+                <qty>2</qty>
+            </Chicken-Afgani>
+            <Chicken-kukadukoo>
+                <price>300</price>
+                <ingredients>rice, Onion, Curd, Chicken-kukadukoo</ingredients>
+                <qty>2</qty>
+            </Chicken-kukadukoo>
+            <Chicken-shawrma>
+                <price>150</price>
+                <ingredients>Cghicken, Trymeric Powder, flour, etc</ingredients>
+                <qty>2</qty>
+            </Chicken-shawrma>
+            <Chicken-biryani>
+                <price>300</price>
+                <ingredients>rice, Onion, Curd, Chicken, etc</ingredients>
+                <qty>2</qty>
+            </Chicken-biryani>
+        </pure-nonveg>
+    </Fooddetails>
+</root>
+
