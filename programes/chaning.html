@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chaning</title>
+    <style>
+        p{
+            width: 200px;
+            padding: 50px 10px;
+            font: bold 25px monospace;
+            text-align: center;
+            background-color: teal;
+            color: #fff;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello, World!</p>
+    <button id="reset">Reset</button>
+</body>
+<script src="./jquery-3.7.1.min.js"></script>
+<script>
+     $(document).ready(function(){
+        $("p").click(function(){
+            alert("Hello, World!");
+            $("p").animate({
+                width:"100vw"
+            }).animate({"font-size":"50px"})
+            .animate({"border-width":30});
+        });        
+        $("#reset").click(function(){
+            $("p").removeAttr("style");
+        });
+    });
+</script>
+</html>

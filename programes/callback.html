@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Call Back</title>
+    <style>
+        p{
+            background-color: purple;
+            color: #fff;
+            font-size: 24px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>I Am A Student.</p>
+    <button class="btn">Click</button>
+</body>
+<script src="jquery-3.7.1.min.js"></script>
+<script>    
+    $(document).ready(function(){
+      $(".btn").click(function(){
+        $("p").slideToggle(3000);
+        alert("CallBack Complete");
+    });
+    });
+</script>
+</html>
